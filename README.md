@@ -1,5 +1,5 @@
-BUG TRACKER
-
+BUG TRACKER**
+**
 A Django-powered web application designed to efficiently manage and track bugs in software projects. This project simplifies bug logging, prioritization, and status management, providing an organized approach to software maintenance.
 
 ---
