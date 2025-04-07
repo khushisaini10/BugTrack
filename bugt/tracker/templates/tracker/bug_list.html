@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bug List</title>
+</head>
+<body>
+    <h1>Bug List</h1>
+    <table>
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Priority</th>
+            <th>Status</th>
+        </tr>
+        {% for bug in bugs %}
+        <tr>
+            <td>{{ bug.title }}</td>
+            <td>{{ bug.description }}</td>
+            <td>{{ bug.priority }}</td>
+            <td>{{ bug.status }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <a href="/add/">Add Bug</a>
+</body>
+</html>
